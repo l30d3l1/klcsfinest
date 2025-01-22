@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portofolioworkk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Leo Deli</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education & Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <p class="intro-text">Hello, I'm</p>
+                <h1 class="main-title">Leo Deli</h1>
+                <div class="typing-text">
+                    <span class="static-text">I'm a Developer</span>
+                    <span class="typed-text"></span>
+                </div>
+                <p class="hero-description">Transforming ideas into elegant digital solutions with
+                    <span class="highlight">creativity</span> and <span class="highlight">precision</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button primary">View My Work</a>
+                    <a href="#contact" class="cta-button secondary">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="c:\Users\zejdc\Downloads\myphoto.jpeg" alt="Leo Deli">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                    <a href="your-github-url" target="_blank" class="social-icon"><i class="fa fa-github"></i></a>
+                    <a href="your-twitter-url" target="_blank" class="social-icon"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="about-text">
+                <p class="about-description">Hello! I'm Leo, a passionate developer dedicated to creating exceptional digital experiences. With a keen eye for detail and a love for clean code, I transform complex problems into elegant solutions.</p>
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <span class="skill-tag">JAVA</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <a href="cv.pdf" download class="cv-button">Download CV <i class="fa fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Koreader</h3>
+                    <div class="project-tags">
+                        <span>eBook</span>
+                        <span>Coding</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/koreader/koreader"><i class="fas fa-external-link-alt"></i> Visit</a>
+                    </div>
+                    <p>An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="dark-section">
+        <h2 class="section-title">Education & Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <h3>Developer</h3>
+                    <h4>Tech Solutions Inc.</h4>
+                    <p>This was my first time working in my field. I enjoyed helping the team to find solutions for people's problems.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2023 - Present</div>
+                    <h3>Bachelor in ICT</h3>
+                    <h4>Beder University</h4>
+                    <p>Focus on Software Engineering and Web Development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="dark-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa fa-envelope"></i>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>ldeli23@beder.edu.al</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa fa-phone"></i>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>+355682216389</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Albania, Tirana</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="https://formspree.io/f/mlddyqgr" method="POST" class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="blog" class="dark-section">
+        <h2 class="section-title">Blog</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-content">
+                    <div class="blog-date">March 15, 2024</div>
+                    <h3>The Rise of Artificial Intelligence</h3>
+                    <p>In today’s rapidly evolving world, AI plays a crucial role in transforming industries and daily life. From automating tasks to improving decision-making, AI enhances efficiency and drives innovation. In healthcare, it aids in diagnosing diseases faster and more accurately. In business, AI helps optimize operations, personalize customer experiences, and predict trends. With AI revolutionizing sectors like finance, education, and transportation, it’s clear that its impact is profound.</p>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-content">
+                    <div class="blog-date">March 1, 2024</div>
+                    <h3>Mastering CSS Grid Layout</h3>
+                    <p>Mastering CSS Grid Layout is a game-changer for web design, offering a powerful and flexible system for creating complex, responsive layouts with ease. Unlike traditional layout techniques, CSS Grid allows designers to define both rows and columns in a single container, giving precise control over positioning elements. Whether building simple layouts or intricate, multi-column designs, CSS Grid has become an essential tool for modern web development.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <p>&copy; 2024 Leo Deli</p>
+            <span class="footer-separator">|</span>
+            <p>All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
